@@ -1,0 +1,184 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is Terraform?",
+      "options": ["a) An infrastructure management tool", "b) A programming language", "c) A cloud service provider", "d) A database management system"],
+      "correct_option": 0
+    },
+    {
+      "id": 2,
+      "question": "What are the key features of Terraform?",
+      "options": ["a) Compatible only with AWS", "b) Declarative syntax for infrastructure definition", "c) Runs only on Docker", "d) Can only be used on Windows operating system"],
+      "correct_option": 1
+    },
+    {
+      "id": 3,
+      "question": "Which cloud platforms can be managed with Terraform?",
+      "options": ["a) Only AWS", "b) AWS, Microsoft Azure, Google Cloud Platform, DigitalOcean", "c) Only Google Cloud Platform", "d) AWS and Azure"],
+      "correct_option": 3
+    },
+    {
+      "id": 4,
+      "question": "How does Terraform work?",
+      "options": ["a) Defines infrastructure resources using a configuration file", "b) Uses only HCL files", "c) Uses only YAML files", "d) Works with programming code only"],
+      "correct_option": 2
+    },
+    {
+      "id": 5,
+      "question": "What is a 'provider' in Terraform?",
+      "options": ["a) A tool used for AWS", "b) A component that allows Terraform to communicate with a specific cloud provider", "c) A module in Terraform", "d) A data type in a programming language"],
+      "correct_option": 1
+    },
+    {
+      "id": 6,
+      "question": "What is Terraform State?",
+      "options": ["a) A snapshot of the current infrastructure configuration", "b) A version control system for Terraform files", "c) A cloud storage service for Terraform", "d) A real-time monitoring tool for Terraform-managed resources"],
+      "correct_option": 0
+    },
+    {
+      "id": 7,
+      "question": "What is Terraform Cloud?",
+      "options": ["a) A cloud-based infrastructure as a service", "b) A private cloud environment for Terraform", "c) A cloud provider supported by Terraform", "d) A hosted service for Terraform that helps with team collaboration and infrastructure automation"],
+      "correct_option": 3
+    },
+    {
+      "id": 8,
+      "question": "What is an 'HCL' in the context of Terraform?",
+      "options": ["a) High Configuration Language", "b) HashiCorp Configuration Language", "c) Host Configuration Language", "d) Hyper Control Language"],
+      "correct_option": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of Terraform modules?",
+      "options": ["a) To compile Terraform files into executable binaries", "b) To enhance the security of Terraform scripts", "c) To group resources together for single deployment", "d) To provide a graphical interface for Terraform"],
+      "correct_option": 2
+    },
+    {
+      "id": 10,
+      "question": "How does Terraform achieve idempotence?",
+      "options": ["a) By using state files to track resource configurations", "b) By generating unique IDs for each resource", "c) By executing scripts in a linear sequence", "d) By encrypting configuration files"],
+      "correct_option": 0
+    },
+    {
+      "id": 11,
+      "question": "What is Terraform Plan?",
+      "options": ["a) A subscription model for Terraform Cloud", "b) A detailed outline of the resources Terraform will create, modify, or destroy", "c) A roadmap for Terraform's future development", "d) A security assessment for Terraform configurations"],
+      "correct_option": 1
+    },
+    {
+      "id": 12,
+      "question": "What are Terraform backends?",
+      "options": ["a) Services that provide public modules for Terraform", "b) Databases supported by Terraform providers", "c) The infrastructure platforms that Terraform can manage", "d) Components that determine how state is loaded and how operations such as apply are executed"],
+      "correct_option": 3
+    },
+    {
+      "id": 13,
+      "question": "What is the Terraform Registry?",
+      "options": ["a) A container registry for Docker images used in Terraform", "b) A version control system for Terraform configurations", "c) A public directory of Terraform modules and providers", "d) A backup service for Terraform state files"],
+      "correct_option": 2
+    },
+    {
+      "id": 14,
+      "question": "How are dependencies between resources handled in Terraform?",
+      "options": ["a) Through manual configuration in the Terraform files", "b) Using special dependency configuration files", "c) Terraform automatically detects dependencies when resources refer to each other", "d) Dependencies are not supported in Terraform"],
+      "correct_option": 2
+    },
+    {
+      "id": 15,
+      "question": "What is a 'workspace' in Terraform?",
+      "options": ["a) A set of environment-specific configurations", "b) A visual IDE for managing Terraform configurations", "c) A Docker container for isolating Terraform executions", "d) A version control branch for Terraform configurations"],
+      "correct_option": 0
+    },
+    {
+      "id": 16,
+      "question": "How does Terraform manage infrastructure changes?",
+      "options": ["a) By comparing the desired state with the current state and applying only the necessary changes", "b) Through incremental updates only", "c) By redeploying all resources with every change", "d) By creating a new set of resources and switching traffic"],
+      "correct_option": 0
+    },
+    {
+      "id": 17,
+      "question": "What is the significance of 'variables' in Terraform?",
+      "options": ["a) They define the cloud provider to use", "b) They are used for dynamic configurations", "c) They store state information", "d) They specify the Terraform version required"],
+      "correct_option": 1
+    },
+    {
+      "id": 18,
+      "question": "What is 'Terraform fmt' used for?",
+      "options": ["a) Finding and fixing errors in Terraform configurations", "b) Formatting Terraform configuration files to a canonical format", "c) Managing Terraform version compatibility", "d) Converting Terraform configurations to different formats"],
+      "correct_option": 1
+    },
+    {
+      "id": 19,
+      "question": "What role do 'outputs' play in Terraform?",
+      "options": ["a) They specify external resources required by Terraform", "b) They define the inputs required for Terraform modules", "c) They provide credentials for accessing managed resources", "d) They display information about the resources created by Terraform"],
+      "correct_option": 3
+    },
+    {
+      "id": 20,
+      "question": "What are 'provisioners' in Terraform?",
+      "options": ["a) Policies that define resource usage limits", "b) Tools for creating cloud resources", "c) Terraform extensions for additional functionalities", "d) Scripts that are run during the creation or destruction of a resource"],
+      "correct_option": 3
+    },
+    {
+      "id": 21,
+      "question": "Which Terraform command is used to apply the changes required to reach the desired state of the configuration?",
+      "options": ["a) terraform apply", "b) terraform plan", "c) terraform build", "d) terraform execute"],
+      "correct_option": 0
+    },
+    {
+      "id": 22,
+      "question": "What file format does Terraform use for defining infrastructure as code?",
+      "options": ["a) JSON", "b) XML", "c) HCL", "d) YAML"],
+      "correct_option": 2
+    },
+    {
+      "id": 23,
+      "question": "In Terraform, what is the purpose of a 'variable' declaration?",
+      "options": ["a) To store constant values", "b) To define configurable inputs to the Terraform configuration", "c) To declare the types of resources to be managed", "d) To output data from Terraform configurations"],
+      "correct_option": 1
+    },
+    {
+      "id": 24,
+      "question": "Which of the following is NOT a feature of Terraform Enterprise?",
+      "options": ["a) Governance and compliance enforcement", "b) Team collaboration and version control integration", "c) Automated cloud resource provisioning", "d) Built-in configuration management tools"],
+      "correct_option": 3
+    },
+    {
+      "id": 25,
+      "question": "How can Terraform configurations be organized for large-scale infrastructure?",
+      "options": ["a) Using multiple providers", "b) Through the use of nested modules", "c) By defining multiple main.tf files", "d) Utilizing Terraform Cloud workspaces"],
+      "correct_option": 1
+    },
+    {
+      "id": 26,
+      "question": "What is the purpose of the 'terraform output' command?",
+      "options": ["a) To display the state of resources in the current Terraform workspace", "b) To extract information from a Terraform plan", "c) To generate documentation for the Terraform configuration", "d) To show the outputs from the Terraform execution"],
+      "correct_option": 3
+    },
+    {
+      "id": 27,
+      "question": "What mechanism does Terraform use to lock state files in remote backends?",
+      "options": ["a) State locking", "b) Encryption", "c) Version control", "d) Checksum validation"],
+      "correct_option": 0
+    },
+    {
+      "id": 28,
+      "question": "What is Terraform's approach to managing existing infrastructure not created by Terraform?",
+      "options": ["a) Importing", "b) Adapting", "c) Transforming", "d) Migrating"],
+      "correct_option": 0
+    },
+    {
+      "id": 29,
+      "question": "Which of the following best describes Terraform's execution plan?",
+      "options": ["a) A detailed description of the actions Terraform will take to change the infrastructure", "b) A high-level overview of the cloud resources to be created", "c) A script that Terraform executes to build infrastructure", "d) A rollback plan to revert changes made by Terraform"],
+      "correct_option": 0
+    },
+    {
+      "id": 30,
+      "question": "How does Terraform handle dependency resolution?",
+      "options": ["a) By using a manual dependency graph", "b) Through explicit dependency blocks in the configuration", "c) Automatically, based on references between resources", "d) By requiring users to specify dependencies in a separate file"],
+      "correct_option": 2
+    }
+  ]
+}
