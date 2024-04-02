@@ -73,7 +73,7 @@ To run QuizApp using Docker, follow these steps:
 
 3. Run the Docker container, mapping your machine's port 3000 to the container's exposed port 3000:
     ```bash
-    docker run -d -p 3000:80 question-react-app
+    docker run -d -p 3000:3000 question-react-app
     ```
     Visit `http://localhost:3000` in your browser to view the app running inside the Docker container.
 
